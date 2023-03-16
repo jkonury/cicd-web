@@ -25,3 +25,7 @@ dependencies {
 test {
   useJUnitPlatform()
 }
+
+war {
+  archiveFileName = 'cicd-web.war'
+}
